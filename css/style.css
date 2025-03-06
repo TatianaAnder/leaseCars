@@ -217,3 +217,59 @@ a {
 .why-lease__item-text {
     text-align: left;
 }
+
+/* SECTION HOW WORK */
+.how-work {
+    padding-bottom: 150px;
+}
+
+.how-work__inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.how-work__title {
+    
+}
+
+.how-work__mini-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.how-work__list {
+    padding: 50px 0 70px;
+    counter-reset: myCounter;
+}
+
+.how-work__item {
+    list-style-type: none;
+    width: 270px;
+    position: relative;
+    margin-left: auto;
+    box-sizing: content-box;
+    padding: 19px 0 19px 240px;
+    min-height: 63px;
+}
+
+.how-work__item + .how-work__item {
+    margin-top: 40px;
+}
+
+.how-work__item::before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0066FF;
+    font-size: 48px;
+    font-weight: 700;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    left: 0;
+}
