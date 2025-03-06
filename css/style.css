@@ -52,7 +52,7 @@ a {
 .header {
     background-color: #151515;
     position: absolute;
-    z-index: 5;
+    z-index: 10;
     left: 0;
     right: 0;
 }
@@ -292,4 +292,29 @@ a {
 .welcome__video-video {
     margin: 0 auto;
     display: block;
+}
+
+/* SECTION IMPORTANT THINHS */
+.important-things {
+    padding-bottom: 150px;
+}
+
+.important-things__title {
+    margin-bottom: 20px;
+}
+
+.important-things__text {
+    width: 580px;
+    margin: 0 auto 50px;
+    
+}
+
+.important-things__list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.important-things__list-img {
+    padding-bottom: 20px;
 }
