@@ -229,7 +229,7 @@ a {
 }
 
 .how-work__title {
-    
+
 }
 
 .how-work__mini-title {
@@ -272,4 +272,24 @@ a {
     color: #fff;
     position: absolute;
     left: 0;
+}
+
+.welcome__video {
+    padding-bottom: 150px;
+}
+
+.welcome__video-title {
+    margin-bottom: 20px;
+}
+
+.welcome__video-text {
+    font-style: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.welcome__video-video {
+    margin: 0 auto;
+    display: block;
 }
