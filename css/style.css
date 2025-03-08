@@ -80,6 +80,10 @@ a {
     font-weight: 700;
 }
 
+.menu__list-link--active {
+    color: #0066FF;
+}
+
 /* MAIN */
 
 .main {
@@ -322,6 +326,7 @@ a {
 
 
 /* CONTACTS PAGE */
+/* FORM */
 .contacts-page header {
     position: relative;
     z-index: 1;  /* Обеспечивает, что текст в section будет ниже по уровню */
@@ -335,7 +340,7 @@ a {
     margin-bottom: 20px;
 }
 
-.contects-text {
+.contacts-text {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 24px;
@@ -388,9 +393,9 @@ a {
 }
 
 .form-btn {
-    margin: 0 auto 150px;
+    margin: 0 auto;
     padding: 13px 61px;
-    width: 184px;
+    width: 225px;
     height: 47px;
     background-color: #151515;
     color: #fff;
@@ -399,3 +404,51 @@ a {
     font-size: 14px;
     font-weight: 400;
 }
+
+/* BLOG */
+.blog {
+    margin-bottom: 150px;
+}
+
+.blog__articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 70px;
+}
+
+.blog__article {
+    display: flex;justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog__article-img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.blog__article-title {
+    flex-basis: 446px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.blog__article-link {
+    background-color: #0066FF;
+    color: #fff;
+    padding: 4px 20px;
+}
+
+.blog__btn {
+    background-color: #151515;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 13px 61px;
+    width: 225px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+}
+
