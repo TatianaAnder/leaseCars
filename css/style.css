@@ -439,7 +439,7 @@ a {
     padding: 4px 20px;
 }
 
-.blog__btn {
+.showmore__btn {
     background-color: #151515;
     color: #fff;
     text-transform: uppercase;
@@ -451,4 +451,87 @@ a {
     font-weight: 400;
     font-size: 14px;
 }
+
+/* CHOOSE CARS PAGE */
+
+.cars-page header {
+    position: relative;
+    z-index: 1;
+}
+
+.choose {
+    margin: 100px 0 150px;  
+}
+
+.choose img {
+    width: 270px;
+    height: 170px;
+    border: 1px solid #0066FF;
+    display: block;
+}
+
+.tabs__btn {
+    padding: 0 150px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    border: none;
+    padding-bottom: 100px;
+}
+
+.tabs__btn-item {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 0;
+    
+}
+
+.tabs__btn-item--active {
+    color: #0066FF;
+}
+
+.tabs__content-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+
+}
+
+.card {
+    text-align: center;
+}
+
+.card__content {
+    padding: 0 5px;
+    border: 1px solid #0066FF;
+    border-top: 0;
+
+}
+
+.card__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card__text {
+    padding-bottom: 20px;
+}
+
+.card__price {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.card__link {
+    display: block;
+    color: #0066FF;
+    text-align: center;
+    border: 1px solid #0066FF;
+    border-top: 0;
+}
+
 
