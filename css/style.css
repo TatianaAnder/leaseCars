@@ -473,7 +473,7 @@ a {
 .tabs__btn {
     padding: 0 150px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 80px;
     border: none;
     padding-bottom: 100px;
@@ -491,6 +491,10 @@ a {
 
 .tabs__btn-item--active {
     color: #0066FF;
+}
+
+.tabs {
+    margin-bottom: 70px;
 }
 
 .tabs__content-item {
@@ -514,6 +518,7 @@ a {
 .card__title {
     font-size: 24px;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .card__text {
