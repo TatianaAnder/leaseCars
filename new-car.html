@@ -38,13 +38,13 @@
                     <h2 class="section-title">Choose your car</h2>
                     <div class="tabs">
                         <div class="tabs__btn">
-                            <button class="tabs__btn-item tabs__btn-item--active">Car and Minivan</button>
-                            <button class="tabs__btn-item">Trucks</button>
-                            <button class="tabs__btn-item">Crossovers & SUVs</button>
-                            <button class="tabs__btn-item">Electrified</button>
+                            <button class="tabs__btn-item tabs__btn-item--active" data-button="content-1">Retro Cars</button>
+                            <button class="tabs__btn-item" data-button="content-2">Trucks</button>
+                            <button class="tabs__btn-item" data-button="content-3">Crossovers & SUVs</button>
+                            <button class="tabs__btn-item" data-button="content-4">Electrified</button>
                         </div>
                         <div class="tabs__content">
-                            <div class="tabs__content-item">
+                            <div class="tabs__content-item" id="content-1">
                                 <div class="card">
                                     <img src="images/choose-1.jpg" alt="" class="card__img">
                                     <div class="card__content">
@@ -154,7 +154,122 @@
                                     <a href="#" class="card__link">see details</a>
                                 </div>
                             </div>
+                            <div class="tabs__content-item tabs__content-item--active" id="content-2">
+                            <div class="card">
+                                <img src="images/truck-1.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">Aston Martin 1963</h4>
+                                    <p class="card__text">starting from $ 39900</p>
+                                    <p class="card__price">$ 650/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
+                            <div class="card">
+                                <img src="images/truck-2.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">Ford 2024</h4>
+                                    <p class="card__text">starting from $ 62450</p>
+                                    <p class="card__price"> $ 1,450/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
+                            <div class="card">
+                                <img src="images/truck-3.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">Ford 1990</h4>
+                                    <p class="card__text">starting from $ 27900</p>
+                                    <p class="card__price"> $ 400/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
+                            <div class="card">
+                                <img src="images/truck-4.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">Ford Thunderbird 2010</h4>
+                                    <p class="card__text">starting from $ 39900</p>
+                                    <p class="card__price">$1,013/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
+                            <div class="card">
+                                <img src="images/truck-5.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">Ford Thunderbird 2010</h4>
+                                    <p class="card__text">starting from $ 39900</p>
+                                    <p class="card__price">$1,013/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
                         </div>
+                        <div class="tabs__content-item" id="content-3">
+                            <div class="card">
+                                <img src="images/suv-1.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">Ford 2021</h4>
+                                    <p class="card__text">starting from $ 99900</p>
+                                    <p class="card__price">$ 1,650/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
+                            <div class="card">
+                                <img src="images/suv-2.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">Volvo P1800 2016</h4>
+                                    <p class="card__text">starting from $ 62450</p>
+                                    <p class="card__price"> $ 1,250/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
+                            <div class="card">
+                                <img src="images/suv-3.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">VW Beetle 2000</h4>
+                                    <p class="card__text">starting from $ 27900</p>
+                                    <p class="card__price"> $ 1,400/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
+                            <div class="card">
+                                <img src="images/suv-4.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">Ford Thunderbird 1967</h4>
+                                    <p class="card__text">starting from $ 39900</p>
+                                    <p class="card__price">$1,013/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
+                        </div>
+                        <div class="tabs__content-item" id="content-4">
+                            <div class="card">
+                                <img src="images/electro-1.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">Tesla 2015</h4>
+                                    <p class="card__text">starting from $ 99900</p>
+                                    <p class="card__price">$ 2,650/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
+                            <div class="card">
+                                <img src="images/electro-2.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">Bentley 1969</h4>
+                                    <p class="card__text">starting from $ 62450</p>
+                                    <p class="card__price"> $ 850/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
+                            <div class="card">
+                                <img src="images/electro-3.jpg" alt="" class="card__img">
+                                <div class="card__content">
+                                    <h4 class="card__title">VW Beetle 1975</h4>
+                                    <p class="card__text">starting from $ 27900</p>
+                                    <p class="card__price"> $ 400/mo</p>
+                                </div>
+                                <a href="#" class="card__link">see details</a>
+                            </div>
+                        </div>
+                        </div>
+                        
                     </div>
                     <button class="showmore__btn">show more</button>
                 </div>
