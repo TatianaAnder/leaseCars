@@ -1,5 +1,5 @@
 import { NavLink, useLocation } from 'react-router-dom';
-import { useFavorites } from '../../context/FavoritesContext';
+import { useFavorites } from '../../hooks/useFavorites';
 
 const navLinkClass = ({ isActive }: { isActive: boolean }) =>
   isActive ? 'menu__list-link menu__list-link--active' : 'menu__list-link';

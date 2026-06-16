@@ -1,5 +1,5 @@
 import type { Car } from '../types';
-import { useFavorites } from '../context/FavoritesContext';
+import { useFavorites } from '../hooks/useFavorites';
 
 interface CarCardProps {
   car: Car;

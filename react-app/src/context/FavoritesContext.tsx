@@ -1,4 +1,5 @@
-import { createContext, useContext, useEffect, useReducer, type ReactNode } from 'react';
+import { useEffect, useReducer, type ReactNode } from 'react';
+import { FavoritesContext, type FavoritesContextValue } from './favorites-context';
 
 const STORAGE_KEY = 'leaseCars.favorites';
 
@@ -20,14 +21,6 @@ function reducer(state: State, action: Action): State {
       return state;
   }
 }
-
-interface FavoritesContextValue {
-  favoriteIds: string[];
-  isFavorite: (id: string) => boolean;
-  toggleFavorite: (id: string) => void;
-}
-
-const FavoritesContext = createContext<FavoritesContextValue | undefined>(undefined);
 
 export function FavoritesProvider({ children }: { children: ReactNode }) {
   const [favoriteIds, dispatch] = useReducer(reducer, []);
@@ -55,12 +48,4 @@ export function FavoritesProvider({ children }: { children: ReactNode }) {
   };
 
   return <FavoritesContext.Provider value={value}>{children}</FavoritesContext.Provider>;
-}
-
-export function useFavorites() {
-  const ctx = useContext(FavoritesContext);
-  if (!ctx) {
-    throw new Error('useFavorites must be used within a FavoritesProvider');
-  }
-  return ctx;
 }
