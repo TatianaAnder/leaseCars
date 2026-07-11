@@ -2,13 +2,16 @@
 
 A responsive multi-page car leasing website built with React, TypeScript, and Vite.
 
-**[🔗 Live Demo](https://tatianaander.github.io/leaseCars/)**
+**[🔗 Live Demo](https://leasecars-tatiana.vercel.app/)**
 
 ---
 
 ## About
+This project simulates a real-world car leasing company website (D&M Leasing). 
+It includes a landing page, a new cars listing page, and a contact page — designed to be fully responsive across all screen sizes.
 
-This project simulates a real-world car leasing company website (D&M Leasing). It includes a landing page, a new cars listing page, and a contact page — designed to be fully responsive across all screen sizes.
+Originally built with vanilla HTML/CSS/JS, the project was fully migrated to 
+React + TypeScript + Vite as a deliberate exercise in component architecture, typed props and state, and modern tooling.
 
 ## Pages
 
@@ -37,7 +40,7 @@ This project simulates a real-world car leasing company website (D&M Leasing). I
 
 ```bash
 git clone https://github.com/TatianaAnder/leaseCars.git
-cd leaseCars/lease-cars-react
+cd leaseCars
 npm install
 npm run dev
 ```
@@ -49,8 +52,6 @@ npm run build    # production build
 npm run test     # run unit/component tests
 npm run lint     # lint the codebase
 ```
-
-Or just visit the **[live demo](https://tatianaander.github.io/leaseCars/)** — no setup needed.
 
 ---
 
